@@ -1,0 +1,28 @@
+{
+  "name": "bethportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm-run-all clean --parallel bundle:*",
+    "clean": "npx rimraf ./_dist",
+    "bundle:eleventy": "eleventy --serve --quiet",
+    "bundle:tailwind": "npx tailwindcss -i ./src/assets/css/site.css -o ./_site/assets/css/site.css --watch",
+    "build": "npm-run-all clean --parallel prod:*",
+    "prod:eleventy": "eleventy",
+    "prod:tailwind": "npx tailwindcss -i ./src/assets/css/site.css -o ./_site/assets/css/site.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-img": "^2.0.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.0.23"
+  }
+}

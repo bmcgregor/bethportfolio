@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Crimson Text", "Hoefler Text", "Georgia", serif;
+  @apply text-slate-800;
+}
+
+.header {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.header a {
+  @apply text-slate-800;
+}
+
+.header a:hover {
+  @apply text-emerald-600 no-underline;
+}
+
+.index p {
+  @apply mb-8;
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+[aria-current] {
+  @apply text-emerald-600;
+}
+
+a {
+  @apply text-emerald-600;
+}
+
+a:hover {
+  @apply underline text-slate-800;
+}

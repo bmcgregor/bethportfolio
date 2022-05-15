@@ -9,7 +9,7 @@ SQL, Python, R, Hypothesis Testing, A/B tests, Parametric and non-Parametric tes
 
 ## EXPERIENCE
 ### Teaching Assistant  |  BrainStation
-##### JAN  2022 - APR 2022, TORONTO, ON
+#### JAN  2022 - APR 2022, TORONTO, ON
 - Graded weekly assignments and provided detailed written feedback for 10 students. 
 - Led morning kickoffs to review course material including SQL, hypothesis testing, R, regression, scikit-learn,handling imbalanced data and transfer learning. 
 - Provided guidance and troubleshooting assistance to students over the course of the program.</p>
